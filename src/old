@@ -1,0 +1,24 @@
+// async created() {
+// await getCalMeetings(this.date)
+// .then(meetings => {
+// this.meetings = meetings
+// // console.log(meetings)
+// // console.log(this.meetings)
+// })
+// .catch(error => {
+// console.log(error)
+// })
+// }
+
+// updateMeetings() {
+// this.meetings = getCalMeetings(this.date)
+// return true
+// const allMeetings = async () => {
+// return await getCalMeetings(this.date)
+// }
+// // console.log(allMeetings)
+// return allMeetings
+// }
+<!-- < p > Attendees: { { meeting.attendees.forEach(attendee => { return attendee.email }) } }</p >
+    < input type = "date" class="date-picker" v - model="date" /> 
+  < div hidden > {{ getMeetings }}</div >  -->
